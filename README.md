@@ -98,7 +98,7 @@ PostgreSQL is used to perform **business-focused analysis** and answer analytica
 
 ### 📄 SQL Query File
 
-[🗄️ View SQL Queries](customer_behavior_sql_queries.sql)
+[🗄️ View SQL Queries](customer_behavior_analysis.sql)
 
 ---
 
@@ -145,3 +145,127 @@ The project follows an end-to-end data analytics workflow:
 💡 Key Insights
       ↓
 💼 Business Recommendations
+
+
+---
+
+# 🐍 Python Analysis
+
+Python and Pandas are used for data loading, cleaning, preprocessing, and Exploratory Data Analysis (EDA).
+
+### 🔍 Analysis Includes
+
+- Loading the customer shopping dataset
+- Exploring the dataset structure
+- Checking rows and columns
+- Checking data types
+- Identifying missing values
+- Data cleaning and preprocessing
+- Exploratory Data Analysis
+- Customer behavior analysis
+- Purchasing pattern analysis
+- Preparing data for further analysis
+
+### 📓 Python Notebook
+
+[🐍 View Python Analysis](Customer_Shopping_Behavior_Analysis.ipynb)
+
+---
+
+# 🗄️ SQL Analysis
+
+PostgreSQL is used to perform business-focused analysis and answer analytical questions using SQL.
+
+### 🔎 SQL Analysis Includes
+
+- Customer behavior analysis
+- Purchasing pattern analysis
+- Product-related analysis
+- Data filtering
+- Aggregations
+- GROUP BY analysis
+- Business metrics
+- Analytical SQL queries
+- Advanced SQL concepts where applicable
+
+### 📄 SQL Queries
+
+[🗄️ View SQL Queries](customer_behavior_analysis.sql)
+
+---
+
+# 📊 Power BI Dashboard
+
+Power BI is used to create an interactive dashboard to visualize customer shopping behavior and present the analysis in an easy-to-understand format.
+
+### 📈 Dashboard Includes
+
+- 👥 Customer behavior
+- 🛍️ Purchasing patterns
+- 📦 Product-related analysis
+- 📊 Business metrics
+- 🔎 Interactive data exploration
+- 📈 Data visualizations
+
+### 📁 Power BI Report
+
+[📊 Open Power BI Dashboard](customer_behavior_dashboard.pbix)
+
+> **Note:** Power BI Desktop is required to open the `.pbix` file.
+
+---
+
+# 💡 Key Insights
+
+The project combines Python, SQL, PostgreSQL, and Power BI to identify meaningful patterns from customer shopping data.
+
+Insights are derived from:
+
+- 📊 Exploratory Data Analysis
+- 👥 Customer behavior analysis
+- 🛍️ Purchasing pattern analysis
+- 🗄️ SQL-based business questions
+- 📈 Power BI visualizations
+
+### Areas Analyzed
+
+- Customer purchasing behavior
+- Shopping patterns
+- Product-related trends
+- Customer characteristics
+- Business-oriented metrics
+
+> **Note:** Specific numerical findings are not listed here because the results depend on the actual analysis performed in the project.
+
+---
+
+# 💼 Business Recommendations
+
+The analysis can help businesses:
+
+- Better understand customer purchasing behavior
+- Identify important purchasing patterns
+- Support data-driven marketing decisions
+- Support sales-related decisions
+- Develop customer-focused strategies
+- Monitor important business metrics
+- Improve business reporting through dashboards
+- Make informed decisions using customer data
+
+Recommendations can be refined further based on the specific findings obtained from the analysis.
+
+---
+
+# 📁 Project Structure
+
+```text
+customer_behavior_analysis/
+│
+├── 📓 Customer_Shopping_Behavior_Analysis.ipynb
+├── 📊 customer_shopping_behavior.csv
+├── 🗄️ customer_behavior_analysis.sql
+├── 📈 customer_behavior_dashboard.pbix
+├── 📄 LICENSE
+└── 📖 README.md
+
+
